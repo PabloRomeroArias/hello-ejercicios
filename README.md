@@ -12,6 +12,21 @@ Si algún ejercicio no está bien definido, tendrás que tomar una decisión com
 
 El repositorio está organizado en carpetas, cada una representando un temario distinto. Tanto las carpetas como los ejercicios dentro de cada carpeta están ordenados de manera progresiva, comenzando con conceptos básicos y avanzando hacia temas más complejos
 
+## Pasos para resolver un ejercicio
+
+A continuación, se recojen los pasos que tienes que seguir a la hora de resolver un problema. Algunos pasos, sobre todo al principio te los podrás saltar
+
+Lo más importante es que no te pongas directamente a picar código, sino que pienses la mejor manera de resolver un algoritmo con papel y boli
+
+1. Analizar el problema, saber qué me están pidiendo realmente. Pasar de un enunciado abstracto (cliente) a un problema lo más sintetizado posible
+2. Atomizar, dividir el problema en partes. Resolver cada parte del algoritmo de manera independiente y luego juntar todo
+3. Tener claros los datos de entrada, es decir, lo que necesita el algoritmo (lo que necesitamos nosotros) para resolver el problema planteado. Al principio puede causar confusión porque nosotros mismos somos los que escribimos los datos de entrada. En un escenario real es cualquier agente externo, una base de datos, un formulario en una Web, etc. Se recomienda que una vez resuelto el ejercicio, habrá que cambiar los datos de entrada y el algoritmo debe de poder resolver el algoritmo con los nuevos *inputs*
+4. Plantear los posibles errores que hay que controlar (cuando sepas hacerlo)
+5. Resolución del problema. Esta es la parte más importante, aquí vendría la implementación del algoritmo. A esta parte se le llama lógica de negocio
+6.  Picamos código. Aquí ya pasaremos del papel y boli al código fuente
+7. Control de errores (cuando sepas hacerlo). Tanto en los datos de entrada como en el propio algoritmo. Si por ejemplo nuestro algoritmo recibe dos números y hay que hacer la división, tendríamos que controlar que el divisor no sea 0
+8. Datos de salida. Esto se refiere a lo que nos ha pedido el algoritmo. Normalmente, habrá que mostrar un mensaje con el resultado. No hay que olvidar que se supone que nosotros no vamos a usar el algoritmo, nosotros lo diseñamos e implementamos, pero lo probarán los clientes que usen nuestras aplicaciones. No es lo mismo decir `750`, que solo nos acordaremos nosotros (a la semana nosotros tampoco), que `Pablo cobra este mes 750€`. Con este segundo mensaje queda mucho más claro qué se ha solucionado
+
 ### Temarios
 
 <table>
