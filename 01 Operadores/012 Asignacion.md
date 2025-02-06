@@ -1,7 +1,7 @@
 # Operadores de Asignación
 
 ## Ejercicio 1
-Carlos ha ahorrado una cantidad de dinero y quiere saber cuánto tiene en su cuenta. Ayuda a Carlos, suma los ahorros al saldo que tiene
+Carlos ha ahorrado una cantidad de dinero y lo ingresa en su cuenta corriente. ¿Cuánto dinero tiene Carlos ahora?
 
 <details>
 <summary>Posible solución (TypeScrypt)</summary>
