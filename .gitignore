@@ -1,0 +1,12 @@
+.vscode/
+*.txt
+*.xml
+*.iml
+*.json
+*.csv
+*.zip
+.DS_Store
+.idea/
+.venv
+*.class
+*.gradle
